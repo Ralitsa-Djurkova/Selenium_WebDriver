@@ -73,5 +73,6 @@ namespace SummatorOfNumbers
             Assert.That(result1, Is.EqualTo(string.Empty));
             Assert.That(result2, Is.EqualTo(string.Empty));
         }
+        
     }
 }
