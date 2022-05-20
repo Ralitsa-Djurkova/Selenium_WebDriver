@@ -42,5 +42,20 @@ namespace SeleniumTests
             Assert.That(driver.Title, Is.EqualTo(expectedTitle));
 
         }
+        [Test]
+        public void Test_Login_Invalid_Username_And_Password()
+        {
+            
+            
+            driver.FindElement(By.CssSelector(".softuni-btn-primary")).Click();
+            driver.FindElement(By.Id("username")).SendKeys("Djurkova");
+            driver.FindElement(By.Id("password-input")).SendKeys("Ralitsa1207");
+            
+            driver.FindElement(By.Id("username")).SendKeys("user1");
+            driver.FindElement(By.Id("password-input")).SendKeys("user1");
+            driver.FindElement(By.CssSelector(".softuni-btn")).Click();
+            Assert.That(driver.FindElement(By.CssSelector("li")).Text, Is.EqualTo("Ќевалидно потребителско име или парола"));
+            driver.Close();
+        }
     }
 }

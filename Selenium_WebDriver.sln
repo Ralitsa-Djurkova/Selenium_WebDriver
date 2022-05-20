@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selenium_WebDriver", "Selenium_WebDriver\Selenium_WebDriver.csproj", "{6396ADA2-8651-4BFA-929A-76A00587BCAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{4D0905C6-5E5D-46A3-A3BE-8EC938E3D42C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{4D0905C6-5E5D-46A3-A3BE-8EC938E3D42C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummatorOfNumbers", "SummatorOfNumbers\SummatorOfNumbers.csproj", "{29175B36-7AEF-42D3-B1C8-EF5B788AE34D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4D0905C6-5E5D-46A3-A3BE-8EC938E3D42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0905C6-5E5D-46A3-A3BE-8EC938E3D42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0905C6-5E5D-46A3-A3BE-8EC938E3D42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29175B36-7AEF-42D3-B1C8-EF5B788AE34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29175B36-7AEF-42D3-B1C8-EF5B788AE34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29175B36-7AEF-42D3-B1C8-EF5B788AE34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29175B36-7AEF-42D3-B1C8-EF5B788AE34D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
